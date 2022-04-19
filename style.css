@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanson', sans-serif;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url(imagens/background.webp);
+}
+
+.logo {
+    height: 10vmax;
+}
+
+#cabecalho {
+    padding: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho h1 {
+    font-size: 3vmax;
+}
+
+#menu {
+    width: 7vw;
+    min-width: 6vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#menu a {
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    font-size: 1.3vmax;
+    font-weight: bold;
+}
+
+#menu a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    color: white;
+}
+
+#menu a:hover:after{
+    width: 100%;
+}
+
+#conteudo {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin:0 20% 0 20%;
+}
+
+#conteudo h1 {
+    font-size: 3vmax;
+}
+
+#conteudo p {
+    font-size: 2vmax;
+}
+
+#produto h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    font-size: 3vmax;
+}
+
+#produto h2 {
+    text-align: center;
+    margin: 1.5%;
+    color: white;
+    font-size: 2vmax;
+}
+
+#produto h3 {
+    text-align: center;
+    margin: 1%;
+    color: white;
+    font-size: 1vmax;
+}
+
+#produto img {
+    display: block;
+    height: 25vmax;
+    border-radius: 2vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#map {
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 2vh;
+}
+
+
+#redes-sociais {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#rodape {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.3vmax;
+    color: gray;
+}
+
+#construcao img {
+    display: block;
+    height: 25vmax;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    background-color: gray;
+    border-radius: 2vh;
+}
